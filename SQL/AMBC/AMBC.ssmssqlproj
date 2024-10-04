@@ -1,0 +1,2086 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AMBC">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):DESKTOP-VCE13BV\ACEH">
+          <Created>2024-07-25T20:26:38.5340417+03:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>ambc</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="dbo.Accounts.Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dbo.Accounts.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.AccountsPayment.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.AccountsPayment.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.AccPay.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.AccPay.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ascooking.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ascooking.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.asfirmtocontr.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.asfirmtocontr.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.asgoodsmatch.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.asgoodsmatch.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.asinvtodoc.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.asinvtodoc.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.BookAccounts.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.BookAccounts.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.BookCooking.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.BookCooking.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Booking.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Booking.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.BookSaldo.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.BookSaldo.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Buffer.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Buffer.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.BufferOUT.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.BufferOUT.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CalcReceiptPrice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CalcReceiptPrice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Calories.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Calories.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardDayLimit.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardDayLimit.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardDayLimitUse.Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardDayLimitUse.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardHolders.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardHolders.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardLimit.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardLimit.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardLimitEnabledLog.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardLimitEnabledLog.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CardLimitUse.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CardLimitUse.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Cards.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Cards.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.CashPrinter.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.CashPrinter.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Coefficient.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Coefficient.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Contragents.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Contragents.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ContragentsExported.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ContragentsExported.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Cooking.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Cooking.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.DietGoods.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.DietGoods.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Diets.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Diets.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Documents.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Documents.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.DocuTaxes.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.DocuTaxes.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.DocuType.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.DocuType.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.DocuTypeAcc.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.DocuTypeAcc.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.dtproperties.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.dtproperties.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.errprice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.errprice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.F_SP_Make_Revision_By_Goods.UserDefinedFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.F_SP_Make_Revision_By_Goods.UserDefinedFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.F_SP_Make_Revision_By_Goods_OLD.UserDefinedFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.F_SP_Make_Revision_By_Goods_OLD.UserDefinedFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.FIXCASHCODE.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.FIXCASHCODE.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.fixcashprice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.fixcashprice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Food.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Food.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Goods.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Goods.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.GoodsAccounts.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.GoodsAccounts.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.GoodsCoeff.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.GoodsCoeff.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.GoodsReplica.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.GoodsReplica.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.GoodsSpecs.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.GoodsSpecs.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.GoodsTaxes.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.GoodsTaxes.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.hextodec.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.hextodec.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Manu.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Manu.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ManuParent.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ManuParent.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.me.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.me.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.measure.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.measure.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.measureold.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.measureold.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Object.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Object.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Operator.Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dbo.Operator.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Partitions.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Partitions.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.PartMove.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.PartMove.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Payments.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Payments.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.PaymentsByVoucher.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.PaymentsByVoucher.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Period.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Period.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.PlusMinus.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.PlusMinus.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Prices.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Prices.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillINSum.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillINSum.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillProdEcon.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillProdEcon.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillProdEconSum.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillProdEconSum.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillStockEcon.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillStockEcon.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBillStockEconSum.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBillStockEconSum.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBuffer.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBuffer.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBufferIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBufferIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBufferINPrint.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBufferINPrint.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBufferMoreGoods.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBufferMoreGoods.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryBufferOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryBufferOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCalculationAll.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCalculationAll.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCalculationCitchen.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCalculationCitchen.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCalculationReal.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCalculationReal.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCalculationWare.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCalculationWare.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCashPrice.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCashPrice.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCook.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCook.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookByDiet.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookByDiet.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookByDietAndFood.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookByDietAndFood.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookByDietPreview.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookByDietPreview.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookByFood.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookByFood.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookByFoodPreview.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookByFoodPreview.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookCombine.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookCombine.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookCombineAll.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookCombineAll.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookCombineReal.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookCombineReal.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookCountToDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookCountToDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookCountToDateByGoods.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookCountToDateByGoods.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookDocID.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookDocID.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookImport.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookImport.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCooking.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCooking.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookingByDocDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookingByDocDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookingDetails.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookingDetails.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookingReportAll.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookingReportAll.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookingReportReal.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookingReportReal.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookManuImport.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookManuImport.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookPriceByCount.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookPriceByCount.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCookValue.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCookValue.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryCoookByDietAndFoodPreview.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryCoookByDietAndFoodPreview.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryDayAll.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryDayAll.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryDayRealSource.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryDayRealSource.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryDocInfo.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryDocInfo.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryDocWareIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryDocWareIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryEconomy.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryEconomy.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryEmptyReceipt.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryEmptyReceipt.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryGoodsOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryGoodsOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryGroup.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryGroup.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryINByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryINByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryINByContrGrouped.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryINByContrGrouped.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryINOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryINOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryINOUTByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryINOUTByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleINOUTByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleINOUTByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleINOUTByContrDoc.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleINOUTByContrDoc.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleInPrice.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleInPrice.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleINPriceByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleINPriceByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleOUTPrice.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleOUTPrice.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryMiddleOUTPriceByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryMiddleOUTPriceByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryNewCustomersReport.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryNewCustomersReport.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryObrkvaciq.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryObrkvaciq.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOkladAdd.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOkladAdd.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOkladDetails.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOkladDetails.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOkladDiff.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOkladDiff.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOkladDifferenceAll.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOkladDifferenceAll.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOUTByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOUTByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryOUTByContrGrouped.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryOUTByContrGrouped.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryPeriod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryPeriod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductCalc.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductCalc.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductionCookByDoc.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductionCookByDoc.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductionOnStockToDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductionOnStockToDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductionSellByDoc.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductionSellByDoc.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductionSellDetail.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductionSellDetail.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryProductsOnStockToDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryProductsOnStockToDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryReceipt.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryReceipt.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryReceiptDetails.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryReceiptDetails.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryReceiptDetailsSum.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryReceiptDetailsSum.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryReceiptGroup.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryReceiptGroup.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryReceiptPrint.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryReceiptPrint.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySaldoByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySaldoByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySaldoInDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySaldoInDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySaldoInDateDetail.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySaldoInDateDetail.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySaldoStart.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySaldoStart.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySalesPeriod.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySalesPeriod.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySellCount.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySellCount.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySellCountByDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySellCountByDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySellCountToDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySellCountToDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySellCountToDAteByGoods.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySellCountToDAteByGoods.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QuerySellProduct.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QuerySellProduct.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStocIn.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStocIn.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStockByCooking.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStockByCooking.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStockCard.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStockCard.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStockCardFinal.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStockCardFinal.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStockIn.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStockIn.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryStockInGroup.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryStockInGroup.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWarehouseIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWarehouseIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWarehouseINPrint.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWarehouseINPrint.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWarehouseOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWarehouseOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWareMoreGoods.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWareMoreGoods.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWINinDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWINinDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWOUTInDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWOUTInDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QueryWOUTInDateGroup.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QueryWOUTInDateGroup.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsEnabled.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsEnabled.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsUseByContrByDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsUseByContrByDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsUseByPeriod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsUseByPeriod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsUseByPeriodByContr.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsUseByPeriodByContr.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsUseByPeriodDetail.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsUseByPeriodDetail.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsUseByPeriodDetailByDate.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsUseByPeriodDetailByDate.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewLimitsValid.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewLimitsValid.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewtmpCardDayLimits.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewtmpCardDayLimits.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.QViewtmpReport.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.QViewtmpReport.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.RECALC_PRICES.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.RECALC_PRICES.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Receipt.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Receipt.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ReceiptDetails.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ReceiptDetails.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Saldo.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Saldo.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.sp_add_goods.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.sp_add_goods.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_amb_CreateLogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_amb_CreateLogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_amb_Login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_amb_Login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_CalcGoodsCoeff.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_CalcGoodsCoeff.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_END_PERIOD.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_END_PERIOD.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.sp_fix_doc_num.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.sp_fix_doc_num.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_CashPrices.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_CashPrices.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_MAKE_NewGoodPrice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_MAKE_NewGoodPrice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_Revision.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_Revision.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_Revision_By_Goods.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_Revision_By_Goods.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_Revision_Details.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_Revision_Details.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_Revision_Details_Active.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_Revision_Details_Active.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Make_Stock_Card.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Make_Stock_Card.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_milev.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_milev.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RECALC_PERIOD.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RECALC_PERIOD.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RECALC_PERIOD_LOCKDATE.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RECALC_PERIOD_LOCKDATE.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RECALC_PERIOD_LOCKDATE_2016_12_27.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RECALC_PERIOD_LOCKDATE_2016_12_27.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_Accounts_Full.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_Accounts_Full.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Article.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Article.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Article_Full.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Article_Full.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Destination.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Destination.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Discount.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Discount.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Operator.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Operator.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_By_Pay_Type.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_By_Pay_Type.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Rep_Sell_Open_Account.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Rep_Sell_Open_Account.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.sp_ret_contr.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.sp_ret_contr.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RET_GOODSACCOUNT.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RET_GOODSACCOUNT.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RET_GOODSACCOUNT_DETAILS.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RET_GOODSACCOUNT_DETAILS.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RET_MIN_COUNT.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RET_MIN_COUNT.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_RET_SALDO_BY_DATE.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_RET_SALDO_BY_DATE.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Ret_Warehouse.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Ret_Warehouse.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Ret_Warehouse_Detail.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Ret_Warehouse_Detail.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_Ret_Warehouse_IN.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_Ret_Warehouse_IN.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_SET_CONTR_ID.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_SET_CONTR_ID.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_SET_MEASURE_ID.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_SET_MEASURE_ID.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_SET_OP_ID.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_SET_OP_ID.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_SET_REPLICA_ID.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_SET_REPLICA_ID.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TAX_MAKE_GOODSTAX.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TAX_MAKE_GOODSTAX.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TAX_MAKE_TAXSUM_BYDOC.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TAX_MAKE_TAXSUM_BYDOC.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TAXES_CALC_DENSITY.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TAXES_CALC_DENSITY.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TAXES_DOCSUMDIFF.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TAXES_DOCSUMDIFF.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.sp_taxes_getdocnum.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.sp_taxes_getdocnum.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.sp_taxes_gettypenum.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.sp_taxes_gettypenum.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TAXES_RECAPITULATION.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TAXES_RECAPITULATION.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_TRIGGER.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_TRIGGER.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SP_userTable.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SP_userTable.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPCalcNewGoodPrice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPCalcNewGoodPrice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPContrSelect.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPContrSelect.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPCooking.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPCooking.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPDayLimitNotUsed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPDayLimitNotUsed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPEnableCardDayLimit.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPEnableCardDayLimit.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPGetDocNum.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPGetDocNum.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPInCash.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPInCash.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPInsertIntoCooking.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPInsertIntoCooking.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPInsertToPrint.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPInsertToPrint.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPLetsPrintSerial.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPLetsPrintSerial.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPLimits.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPLimits.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPLimitsEnabled.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPLimitsEnabled.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPLimitsNotUsed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPLimitsNotUsed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPLimitsUsed.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPLimitsUsed.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPMiddlePrice.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPMiddlePrice.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPopenaccounts.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPopenaccounts.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPQueryMiddleINOUT.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPQueryMiddleINOUT.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPQueryMiddleINOUTByContr.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPQueryMiddleINOUTByContr.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPQueryMiddleINOUTByContrDoc.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPQueryMiddleINOUTByContrDoc.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPQueryMIddleINOUTDoc.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPQueryMIddleINOUTDoc.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPToPrint.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPToPrint.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPUpdateCashName.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPUpdateCashName.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPUpdateTmpCooking.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPUpdateTmpCooking.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPViewAllDayLimits.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPViewAllDayLimits.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPViewDayLimitsDateToUse.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPViewDayLimitsDateToUse.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPViewDayLimitsPeriodToUse.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPViewDayLimitsPeriodToUse.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPViewDayLimitsUsedByDate.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPViewDayLimitsUsedByDate.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SPViewDayLimitsUsedPeriod.StoredProcedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SPViewDayLimitsUsedPeriod.StoredProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.SubObject.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.SubObject.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxDeclarationItems.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxDeclarationItems.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.TaxDeclarationItemsStationary.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.TaxDeclarationItemsStationary.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxDeclarationPositions.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxDeclarationPositions.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxDeclarations.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxDeclarations.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.TaxDeclarationType.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.TaxDeclarationType.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Taxes.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Taxes.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxGoods.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxGoods.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxGoodsIN.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxGoodsIN.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.taxGoodsOUT.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.taxGoodsOUT.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblCashMove.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblCashMove.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblCashPrice.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblCashPrice.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblContrPerson.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblContrPerson.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblCurrCoeff.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblCurrCoeff.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblCurrency.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblCurrency.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDaySales.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDaySales.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDeliveryAddress.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDeliveryAddress.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDensity.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDensity.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDietPrice.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDietPrice.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDiscount.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDiscount.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblDiscountGoods.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblDiscountGoods.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblLockDate.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblLockDate.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblMeasureCoeff.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblMeasureCoeff.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblMilev.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblMilev.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblMinCount.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblMinCount.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblOrderDetails.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblOrderDetails.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblOrders.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblOrders.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblPayType.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblPayType.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblPrinted.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblPrinted.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblProgType.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblProgType.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblQuantity.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblQuantity.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblRevision.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblRevision.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblSaldoTmp.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblSaldoTmp.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblSaldoTmpDoc.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblSaldoTmpDoc.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblSale.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblSale.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblStock.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblStock.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblStockCard.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblStockCard.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tblWarehouse.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tblWarehouse.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpCalcImport.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpCalcImport.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpCardDayLimit.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpCardDayLimit.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpCooking.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpCooking.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpImport.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpImport.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpImportSales.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpImportSales.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpNH.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpNH.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.tmpTable.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.tmpTable.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Transport.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Transport.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VAT_DECLAR.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VAT_DECLAR.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VAT_pokupki.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VAT_pokupki.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VAT_prodagbi.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VAT_prodagbi.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_1.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_1.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_2.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_2.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_Contr_PM.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_Contr_PM.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_DocCookSumDiffWIN.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_DocCookSumDiffWIN.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_DocCookSumDiffWOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_DocCookSumDiffWOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_DocWOCook.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_DocWOCook.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_WIN_DOC_DATE_DIFF.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_WIN_DOC_DATE_DIFF.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.View_WOUT_DOC_DIFF.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.View_WOUT_DOC_DIFF.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewAddToPrint.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewAddToPrint.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewCardHolders.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewCardHolders.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWCooking.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWCooking.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWCookingClientPrice.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWCookingClientPrice.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWCookingOLD.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWCookingOLD.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWCookValue.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWCookValue.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.viewdaylimitdaytouse.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.viewdaylimitdaytouse.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWDayLimitEnabled.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWDayLimitEnabled.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWDayLimitsFromTo.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWDayLimitsFromTo.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWDayLimitsUsed.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWDayLimitsUsed.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.viewdaylimitsusedbyperiod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.viewdaylimitsusedbyperiod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWDocumentsWOUT.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWDocumentsWOUT.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWEditDayLimits.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWEditDayLimits.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewLimitEnabled.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewLimitEnabled.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWLimitEnabledDetails.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWLimitEnabledDetails.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewLimits.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewLimits.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewLimitsEnabled.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewLimitsEnabled.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.viewlimitsenabledbyperiod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.viewlimitsenabledbyperiod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewLimitsUseFromTo.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewLimitsUseFromTo.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWmonthlimitenabled.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWmonthlimitenabled.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewOpenAccounts.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewOpenAccounts.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewSubOjects.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewSubOjects.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWtmpCooking.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWtmpCooking.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.ViewtmpCookingClientPrice.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.ViewtmpCookingClientPrice.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWtmpNHCount.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWtmpNHCount.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWtmpNHDuplicates.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWtmpNHDuplicates.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWtmpNHError.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWtmpNHError.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VIEWtmpNHNotFound.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VIEWtmpNHNotFound.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VViewDayLimitsNotUsed.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VViewDayLimitsNotUsed.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VViewInCashFromTo.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VViewInCashFromTo.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VVIEWLimitByPeriod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VVIEWLimitByPeriod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VVIEWLimitEnabledByPeriod.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VVIEWLimitEnabledByPeriod.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VViewLimitsNotUsed.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VViewLimitsNotUsed.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.VVIEWLimitUse.View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.VVIEWLimitUse.View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.Warehouse.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.Warehouse.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.WarehouseIN.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.WarehouseIN.Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.WarehouseOUT.Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.WarehouseOUT.Table.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

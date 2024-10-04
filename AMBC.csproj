@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3B27F1E-9817-4B53-B411-AE4FA7DB035C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AMBC</RootNamespace>
+    <AssemblyName>AMBC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AMBC.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Padi.Vies, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\vies-dotnet-api.2.3.1\lib\netstandard2.0\Padi.Vies.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ambcDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ambcDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AMBConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AMBConfig.Designer.cs">
+      <DependentUpon>AMBConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGlobals.cs" />
+    <Compile Include="FormContragents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContragents.Designer.cs">
+      <DependentUpon>FormContragents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGoods.Designer.cs">
+      <DependentUpon>FormGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGoodsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGoodsList.Designer.cs">
+      <DependentUpon>FormGoodsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormContragentsSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContragentsSearch.Designer.cs">
+      <DependentUpon>FormContragentsSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGoodsSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGoodsSearch.Designer.cs">
+      <DependentUpon>FormGoodsSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMeasure.Designer.cs">
+      <DependentUpon>FormMeasure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LINQDataContext.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VarGlobals.cs" />
+    <EmbeddedResource Include="AMBConfig.resx">
+      <DependentUpon>AMBConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContragents.resx">
+      <DependentUpon>FormContragents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGoods.resx">
+      <DependentUpon>FormGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGoodsList.resx">
+      <DependentUpon>FormGoodsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContragentsSearch.resx">
+      <DependentUpon>FormContragentsSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGoodsSearch.resx">
+      <DependentUpon>FormGoodsSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMeasure.resx">
+      <DependentUpon>FormMeasure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ambcDataSet.xsc">
+      <DependentUpon>ambcDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ambcDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ambcDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ambcDataSet.xss">
+      <DependentUpon>ambcDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
